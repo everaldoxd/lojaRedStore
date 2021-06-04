@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes de Produtos - RedStore </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                 <img src="images/logo.png" alt="" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="">inicio</a></li>
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>  
+<!--------- detalhes do produto ------>
+    <div class="small-container detalhe-produto">
+        <div class="row">
+    <div class="col-2">
+        <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+
+        <div class="small-img-row">
+        <div class="small-img-col">
+        <img src="images/gallery-1.jpg" width="100%" onclick="alterarImagem(1)">
+        </div>
+        <div class="small-img-col">
+        <img src="images/gallery-2.jpg" width="100%" onclick="alterarImagem(2)">
+        </div>
+        <div class="small-img-col">
+        <img src="images/gallery-3.jpg" width="100%" onclick="alterarImagem(3)">
+        </div>
+        <div class="small-img-col">
+        <img src="images/gallery-4.jpg" width="100%" onclick="alterarImagem(4)">
+        </div>
+        </div>
+
+
+
+            </div>
+            <div class="col-2">
+                <p>Inicio / Camisetas</p>
+                <h1>Camiseta Performance Graphic</h1>
+                <H4>R$50,00</H4>
+                <select>
+                    <option>Selecione o tamanho</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                    <option>XGG</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">adicionar ao carrinho</a>
+
+                <h3>Detalhes do Produto<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Básica e funcional, a camiseta Performance Graphic masculina 
+                traz modelagem regular e tecnologia dryCELL que afasta o suor da 
+                pele e te mantém seco e confortável das ruas aos treinos.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-------TITULO----->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Produtos Relacionados</h2>
+            <p>Veja mais</p>
+        </div>
+    </div>
+
+    <!----PRODUTOS---->
+    <div class="small-container">
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Relógio Grafite Básico</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$99,90</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Tênis Corrida Preto</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$230,00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Tênis Básico Cinza</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>R$180,00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Calça Moleton Básica</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>R$48,50</p>
+            </div>
+        </div>
+        
+    </div> 
+    <!------FOOTER------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso App</h3>
+                    <p>Disponível para Android e ios</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Nosso objetivo é tornar o prazer e as vantagens do esporte acessíveis a muitos de maneira sustentável.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Reembolso</li>
+                        <li>Cupons</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nos siga</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Eve Santos</p>
+        </div>
+    </div>
+ <!-----JAVASCRIPT PARA O BOTÃO DO MENU-->
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(menuItems.style.maxHeight == "0px"){
+                menuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                menuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+    <!-------JS PARA PRODUTOS DA GALERIA-->
+
+  <script>
+
+    function alterarImagem(codigo){
+
+switch(codigo){
+    case  1:
+        document.getElementById("ProductImg").src="images/gallery-1.jpg";
+    break;
+
+    case  2:
+        document.getElementById("ProductImg").src="images/gallery-2.jpg";
+    break;
+
+    case  3:
+        document.getElementById("ProductImg").src="images/gallery-3.jpg";
+    break;
+
+    case  4:
+        document.getElementById("ProductImg").src="images/gallery-4.jpg";
+    break;
+}
+
+}
+    </script>
+</body>
+</html>
